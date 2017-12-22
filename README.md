@@ -2,18 +2,27 @@
 
 - [Python3](https://www.python.org/downloads/)
 
+
 ## Supported Controllers
 
 - [PS4 Controller](https://www.playstation.com/en-us/explore/accessories/gaming-controllers/dualshock-4/) connected via the [USB Wireless Adapter](https://www.playstation.com/en-us/explore/accessories/gaming-controllers/dualshock-4-usb-wireless-adaptor/)
 
 
+## Supported Operating Systems
+
+- MacOS
+
+
 ## Installation
 
 ```bash
-    pip3 install PyController
+    pip install PyController
 ```
 
+
 ## Usage
+
+
 
 ## Development
 
@@ -36,6 +45,7 @@
 ```
 
 **Commands:**
+
 When developing against this repo, make sure to always have the environment activated. Once activated, you can use `invoke` to run several tasks.
 
 ```bash
