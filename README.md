@@ -29,6 +29,14 @@
 **Requirements:**
 - [Miniconda](https://conda.io/docs/user-guide/install/index.html), a package and environment manager.
 
+- Linux
+  - Follow the [hidapi](https://github.com/trezor/cython-hidapi#description) installation instructions.
+  - Copy the udev rules file from the setup folder into your local udev rules
+
+```
+    sudo cp ./setup/81-pycontroller.rules /etc/udev/rules.d/81-pycontroller.rules
+```
+
 **Installation:**
   1. Fork this repository.
   2. Clone your fork.
@@ -43,6 +51,7 @@
 ```bash
   conda env create -f environment.yml
 ```
+
 
 **Commands:**
 
