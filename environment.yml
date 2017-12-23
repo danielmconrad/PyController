@@ -22,5 +22,7 @@ dependencies:
 - wheel=0.30.0=py_1
 - xz=5.2.3=0
 - zlib=1.2.11=0
+- pip:
+  - hidapi==0.7.99.post21
 prefix: /Users/conrad/miniconda3/envs/PyController
 
